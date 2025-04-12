@@ -1,3 +1,43 @@
-.card-boy {
+.card-body {
   text-align: center;
+}
+
+*{
+  text-decoration: none;
+}
+
+.navbar {
+  background: crimson;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: Calibri, serif;
+}
+
+.navdiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.logo a{
+  font-size: 80px;
+  color: white;
+  text-decoration: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+li a{
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 25px;
 }
